@@ -44,6 +44,25 @@ there are two runner availbale in Test Ng AND Cucumber Junit Runner -->
           <scope>test</scope>
       </dependency>
 
+<!--      to Convert Json TO java Object and Java Object To Json we need a dependencies that
+will do this functionality which is called Jackson Dependecies-->
+      <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>2.18.3</version>
+      </dependency>
+
+
+      <!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
+      <dependency>
+          <groupId>org.codehaus.groovy</groupId>
+          <artifactId>groovy</artifactId>
+          <version>3.0.24</version>
+      </dependency>
+
+
+
 
 
       <dependency>
