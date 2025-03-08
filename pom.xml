@@ -33,7 +33,20 @@
     </dependency>
 
 
-    <dependency>
+<!--      for cucumber based test cases you need runner for this we can use
+there are two runner availbale in Test Ng AND Cucumber Junit Runner -->
+<!--      lets use cucumber Junit dependencies available-->
+      <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+      <dependency>
+          <groupId>io.cucumber</groupId>
+          <artifactId>cucumber-junit</artifactId>
+          <version>7.21.1</version>
+          <scope>test</scope>
+      </dependency>
+
+
+
+      <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
